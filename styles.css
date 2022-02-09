@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   font-family: "Amatic SC";
+   text-align: center;
+   font-weight: bolder;
+   background-color: black;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+div{
+    display: inline-block;
+    border: 1px solid rgb(223, 247, 7);
+    height: 200px;
+    width: 200px;
+    margin: 2%;
+    margin: 2%;
+}
+img{
+    height: 75%;
+    }
+#heading{
+    color: rgb(7, 247, 7);
+}  
+h2{
+color: hotpink;
+}
+div:hover {
+    background-color: lightgreen;
+    }
+    
+    div:active {
+    background-color: darkgreen;
+    }  
